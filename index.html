@@ -2,25 +2,38 @@
 <html>
 <head>
     <style>
+        .header {
+            text-align: center;
+        }
         .darth {
           background-image: url('/lennystarwars/darth.jpg');
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: cover;
-          height: 500px;
+          height: 200px;
+        }
+        .greedo {
+            background-image: url('/lennystarwars/greedo.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          height: 200px;
         }
         </style>
 </head>
 <body style="font-family: verdana; background-color: black; color: white;">
-<h1>The Force - Lenny Blakeman</h1>
+<h1 class="header">Lenny Blakeman's Star Wars space</h1>
 <div class="darth">
-<h2>The Force - episode 1: Gredo</h2>
+    <h2>The Force Podcast</h2>
+    <h4>By Lenny Blakeman ft. Paul Blakeman</h4>
+</div>
+<div class="greedo">
+<h2>Episode I: Gredo</h2>
 <div style="display: flex;">
     <audio controls>
         <source src="pod.mp4" type="audio/mp4">
       Your browser does not support the audio element.
       </audio>
-      <img src="/lennystarwars/greedo.jpg" />
 </div>
 
 <!-- <img src="/lennystarwars/stormtropper.jpg" width="100%" height="300px" />
